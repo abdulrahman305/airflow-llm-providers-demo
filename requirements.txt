@@ -6,3 +6,4 @@ apache-airflow-providers-openai==1.0.0
 bs4==0.0.1
 langchain==0.0.341
 streamlit==1.29.0
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
